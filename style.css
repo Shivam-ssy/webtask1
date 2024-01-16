@@ -37,7 +37,9 @@ body{
     transform: translate(-50%, -50%);
 } */
 
-
+#login-item{
+    width:50%;
+}
   
 
 @media screen and (max-width:600px) {
@@ -58,6 +60,9 @@ body{
     #nav-gropu3-img{
        right: 0;
        top: 0;     
+    }
+    #login-item{
+        width:100%;
     }
 
 }
