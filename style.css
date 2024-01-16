@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.first-rectange{
+    width: 100%;
+    height: 440px;
+}
+/* .first-rectange:nth-child(1){
+    background-image: url("assets/Rectangle2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:c;
+    
+} */
+.first-rectange img{
+    width: inherit;
+    height: inherit;
+}
+.first-rectange:nth-child(2){
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%);
+   
+}
+.first-rectange>div{
+    width: inherit;
+    height: inherit;
+   
+}
+#first-rectangle-text{
+    bottom: 42px;
+    left: 200px;
+}
+/* #signModal {
+    position: fixed;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+} */
+
+
+  
+
+@media screen and (max-width:600px) {
+    .first-rectange{
+        height:236px;
+        width: 100%;
+    }
+    #first-rectangle-text{
+        bottom: 32px;
+        left: 16px;
+    }
+    #group5{
+        top: 14px;
+        left: 0;
+        
+        position: absolute;
+    }
+    #nav-gropu3-img{
+       right: 0;
+       top: 0;     
+    }
+
+}
