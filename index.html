@@ -75,12 +75,12 @@
           </div>
           <div class="d-flex align-items-center ">
             <div id="login-item">
-            <form>
+            <form id="myLoginform">
            
-            <input type="email" placeholder="Email" class="form-control ">
-            <input type="password" placeholder="Password" class="form-control ">
-            <input type="submit" class="form-control bg-primary mt-3 rounded-pill " value="Sign In">
-          </form>
+            <input id="email1" type="email" placeholder="Email" class="form-control ">
+            <input id="password1" type="password" placeholder="Password" class="form-control ">
+            <input type="submit" onclick="login()" class="form-control bg-primary mt-3 rounded-pill " value="Sign In">
+          </form >
           <div class="container mt-3 d-flex flex-column gap-2 ">
           <button style="width: 100%; " class="btn border border-secondary " > <img src="assets/f_logo_RGB-Blue_1024.png" alt=""> Sign in with Facebook</button>
           <button style="width: 100%;" class="btn border border-secondary"> <img src="assets/search.png" alt=""> Sign in with Google</button>
@@ -358,7 +358,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-
+  <script src="script.js"></script>
 </body>
 
 </html>
