@@ -41,7 +41,11 @@ body{
     width:50%;
 }
   
-
+.modal-close-btn{
+    margin-top: -30px;
+    position:absolute;
+    right: 0;
+}
 @media screen and (max-width:600px) {
     .first-rectange{
         height:236px;
@@ -50,6 +54,14 @@ body{
     #first-rectangle-text{
         bottom: 32px;
         left: 16px;
+    }
+    .modal-close-btn{
+        margin-top: 0;
+        margin-bottom: 20px;
+        position:absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 99;
     }
     #group5{
         top: 14px;
